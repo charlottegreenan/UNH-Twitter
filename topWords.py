@@ -13,7 +13,6 @@ import subprocess
 import sys
 import cgi
 
-
 file = open("/Users/charlotte/Documents/2014/UNH TWITTER/commonWordsOnTwitter","r")
 commonWords = [re.findall("[\w]+",c)[0] for c in file.readlines()]
 file.close()
