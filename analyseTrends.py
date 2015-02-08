@@ -11,7 +11,6 @@ import MySQLdb as mdb
 import os
 
 
-
 ## find tweets with keyword mentioned as string
 def tweetsWithKeywordAsString(keyword):
 	con = mdb.connect('localhost', 'testuser2', 'test623', 'TWITTER');
